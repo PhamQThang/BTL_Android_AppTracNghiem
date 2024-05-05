@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.baitaplonandroid">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BaiTapLonAndroid"
+        tools:targetApi="31">
+        <activity
+            android:name=".Sign_In"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Sign_Up"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Phan_Hoi"/>
+        <activity android:name=".Chinh_Sach"/>
+        <activity android:name=".Danh_Sach_De_Thi"/>
+        <activity android:name=".De_So_1"/>
+        <activity android:name=".Ket_Qua_Sau_Thi"/>
+        <activity android:name=".lichSu.LichSu"/>
+        <activity android:name=".lichSu.LichSuMau"/>
+        <activity android:name=".De_So_2"/>
+        <activity android:name=".Doi_Mat_Khau"/>
+    </application>
+
+</manifest>
